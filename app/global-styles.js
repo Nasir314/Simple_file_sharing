@@ -40,6 +40,11 @@ const GlobalStyle = createGlobalStyle`
     }
   }
 
+  .shar_scrolling{
+    max-height: 250px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+  }
   
 `;
 

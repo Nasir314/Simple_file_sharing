@@ -120,30 +120,31 @@ class SharingSetting extends React.Component {
                             <div className="border-strip"> </div>
                             <br />
 
-                            <div>
-                                <div className="shar_own_mem">Owner</div>
-                                {
-                                    this.state.addedMem.map((data, ind) =>
-                                        (data && data.isOwner) ?
-                                            <Fragment key={ind}>
-                                                <MDBRow >
-                                                    <MDBCol xs="2" sm="2" md="1" lg="1" xl="1">
-                                                        <img className="shar_img" src={data.picture ? data.picture : ""} />
-                                                    </MDBCol>
-                                                    <MDBCol style={{ marginLeft: "15px" }}>
-                                                        <div style={{ marginTop: "5px" }}>
-                                                            <div> {data.name ? data.name : "NA"} </div>
-                                                            <div className="shar_div_email"> {data.email ? data.email : "NA"} </div>
-                                                        </div>
-                                                    </MDBCol>
-                                                </MDBRow>
-                                                <br />
-                                            </Fragment>
-                                            :
-                                            ""
-                                    )
-                                }
+                            
+                            <div className="shar_own_mem">Owner</div>
+                            {
+                                this.state.addedMem.map((data, ind) =>
+                                    (data && data.isOwner) ?
+                                        <Fragment key={ind}>
+                                            <MDBRow >
+                                                <MDBCol xs="2" sm="2" md="1" lg="1" xl="1">
+                                                    <img className="shar_img" src={data.picture ? data.picture : ""} />
+                                                </MDBCol>
+                                                <MDBCol style={{ marginLeft: "15px" }}>
+                                                    <div style={{ marginTop: "5px" }}>
+                                                        <div> {data.name ? data.name : "NA"} </div>
+                                                        <div className="shar_div_email"> {data.email ? data.email : "NA"} </div>
+                                                    </div>
+                                                </MDBCol>
+                                            </MDBRow>
+                                            <br />
+                                        </Fragment>
+                                        :
+                                        ""
+                                )
+                            }
 
+                            <div className="shar_scrolling">
                                 <div className="shar_own_mem">Members</div>
                                 {
                                     (this.state.addedMem.length === 1 || this.state.addedMem.length === 0) ?
@@ -162,7 +163,7 @@ class SharingSetting extends React.Component {
                                                                 <div className="shar_div_email"> {data.email ? data.email : "NA"} </div>
                                                             </div>
                                                         </MDBCol>
-                                                        <MDBCol style={{ textAlign: "end", marginRight: "-10px" }}>
+                                                        <MDBCol style={{ textAlign: "end"}}>
                                                             <CustomButton
                                                                 handleClick={(e) => { this.fnRemMember(e, data, ind) }}
                                                                 icon="fas fa-times"

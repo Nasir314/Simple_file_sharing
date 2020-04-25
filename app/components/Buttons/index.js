@@ -1,3 +1,9 @@
+/**********************
+Name - Button design
+Author - Nasir Ansari
+Description: Button design component 
+***********************/
+
 import React, { Fragment } from "react";
 import Helmet from "react-helmet";
 import { MDBBtn, MDBIcon } from "mdbreact";

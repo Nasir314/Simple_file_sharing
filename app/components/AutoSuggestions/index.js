@@ -1,3 +1,9 @@
+/**********************
+Name - Autoseggestion input 
+Author - Nasir Ansari, edited in npm modal
+Description: This is auto suggestion input component 
+***********************/
+
 import React, { Fragment } from 'react';
 import Autosuggest from 'react-autosuggest';
 import { MDBRow, MDBCol } from 'mdbreact';

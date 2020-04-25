@@ -1,0 +1,29 @@
+.shar_div1{
+    display: flex;
+    justify-content: space-between;
+}
+
+.border-strip{
+    border: 1px solid #e6e5e5;
+    /* box-shadow: 0 2px 2px 0 rgba(66, 165, 245, 0.14), 0 3px 1px -2px rgba(66, 165, 245, 0.2), 0 1px 5px 0 rgba(66, 165, 245, 0.12); */
+    margin-left: -15px;
+    margin-right: -15px;
+}
+
+.shar_img{
+    height: 50px;
+    width: 50px;
+    border-radius: 25px;
+    border: 1px solid lightgray;
+}
+
+.shar_div_email{
+    font-size: 12px;
+    color: lightslategray;
+}
+
+.shar_own_mem{
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 5px;
+}

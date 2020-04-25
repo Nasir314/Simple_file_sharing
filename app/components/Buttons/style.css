@@ -1,0 +1,72 @@
+
+/*Button with blue color*/
+.ButtonStyleWithBlue{
+    font-weight: 500;
+    font-size: 14px;
+    padding: 2px 2px;
+    margin: 0px;
+    border-radius: 6px;
+    color: #FFF;
+    min-height: 36px;
+    min-width: 110px;
+    background-color: #1976d2 !important;
+    text-transform: capitalize;
+    box-shadow: 0 2px 2px 0 rgba(66, 165, 245, .14), 0 3px 1px -2px rgba(66, 165, 245, .2), 0 1px 5p2 0 rgba(66, 165, 245, .12);
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+};
+
+/*Button with blue color on hove */
+.ButtonStyleWithBlueOnHover{
+    font-weight: 500;
+    font-size: 14px;
+    padding: 2px 2px;
+    margin: 0px;
+    border-radius: 6px;
+    color: #1976d2;
+    min-height: 36px;
+    min-width: 110px;
+    background-color: transparent !important;
+    text-transform: capitalize;
+    border: 1px solid #1976d2;
+    box-shadow: 0 2px 2px 0 rgba(66, 165, 245, .14), 0 3px 1px -2px rgba(66, 165, 245, .2), 0 1px 5px 0 rgba(66, 165, 245, .12);
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+};
+.ButtonStyleWithBlueOnHover:hover{
+    background-color: #1976d2 !important;
+    color: #FFF;
+}
+
+
+/* Icons button styles*/
+.icon-button-custom-red {
+    border-radius: 2%;
+    margin-top: 2px;
+    /* text-transform: capitalize; */
+    color: #fff;
+    box-shadow: 0 2px 2px 0 rgba(66, 165, 245, 0.14),
+      0 3px 1px -2px rgba(66, 165, 245, 0.2), 0 1px 5px 0 rgba(66, 165, 245, 0.12);
+    /* transition: color 0.15s ease-in-out; */
+    background-color: #ef5350 !important;
+    font-size: 15px !important;
+    padding: 2px 11px !important;
+  }
+
+/* Icons button styles*/
+.icon-button-custom-black {
+    border-radius: 2%;
+    margin-top: 10px;
+    box-shadow: 0 2px 2px 0 rgba(66, 165, 245, 0.14), 0 3px 1px -2px rgba(66, 165, 245, 0.2), 0 1px 5px 0 rgba(66, 165, 245, 0.12);
+    transition: color 0.15s ease-in-out;
+    background-color: transparent !important;
+    font-size: 20px !important;
+    padding: 0px 10px !important;
+    color:  #ef5350;
+    box-shadow: 0 2px 2px 0 rgba(66, 165, 245, 0.14), 0 3px 1px -2px rgba(66, 165, 245, 0.2), 0 1px 5px 0 rgba(66, 165, 245, 0.12);
+    background-color: transparent !important;
+    /* border: 1px solid  #ef5350; */
+  }
+
+  .icon-button-custom-black:hover{
+    color:  #ef5350;
+  
+  }
